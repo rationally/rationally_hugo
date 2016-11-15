@@ -1,0 +1,12 @@
+languageCode = "en-us"
+baseurl = "http://rationally.github.io/"
+title = "rationally"
+theme = "hugo-theme-learn"
+
+
+[params]
+  editURL = ""
+  author = ""
+  description = ""
+  showVisitedLinks = false
+
