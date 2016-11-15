@@ -1,12 +1,11 @@
-+++
-title = "Getting Started"
-weight = 5
-prev = "/basics/requirements"
-next = "/contributing"
-toc = true
-date = "2016-11-14T15:14:28+01:00"
-
-+++
+---
+title: Getting Started
+weight: 5
+prev: /basics/requirements
+next: /contributing
+toc: true
+date: 2016-11-14T15:14:28+01:00
+---
 
 This manual guides you through the first steps of using **rationally**. it explains how to document a decision in Visio using rationally's *decision viewpoint*.
 

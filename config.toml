@@ -10,3 +10,4 @@ canonifyurls = true
   description = "Documentation for rationally"
   showVisitedLinks = false
   editURL = "https://github.com/rationally/rationally_hugo/edit/master/content/"
+  menu = [ "welcome", "basics", "contributing" ]

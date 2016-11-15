@@ -1,12 +1,12 @@
-+++
-toc = true
-date = "2016-11-14T15:13:09+01:00"
-title = "What is rationally?"
-weight = 1
-prev = "/basics"
-next = "/basics/requirements"
-
-+++
+---
+toc: true
+date: 2016-11-14T15:13:09+01:00
+title: What is rationally?
+weight: 2
+chapter: false
+prev: /basics
+next: /basics/requirements
+---
 
 **rationally** allows the documentation of architecture decisions within Microsoft Visio. Architecture decisions play an important role in the development of **software-intensive systems**.
 

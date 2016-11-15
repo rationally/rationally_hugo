@@ -1,44 +1,40 @@
-﻿<!doctype html>
-<html>
-<head>
+﻿<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta http-equiv="refresh" content="0; url=/welcome"/>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>rationally - Decision Documentation</title>
+    {{ partial "meta.html" . }}
+    {{ partial "favicon.html" . }}
+{{ .Scratch.Add "title" "" }}{{ if isset .Site.Data.titles .Title }}{{ .Scratch.Set "title" (index .Site.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
+    <title>{{ .Scratch.Get "title" }}</title>
+    {{ partial "style.html" . }}
+    <link href="/css/nucleus.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/hybrid.css" rel="stylesheet">
+    <link href="/css/featherlight.min.css" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/hugo-theme.css" rel="stylesheet">
+    <style type="text/css">
+    :root #header + #content > #left > #rlblock_left {
+      display:none !important;
+    }
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <div class="wrapper">
-        <header>
-            <center>
-                <img src="images/logoindex.png" style="width:200px;margin-bottom:50px;">
-            </center>
-            <p class="view"><a href="https://github.com/rationally/rationally_visio">View the Project on GitHub <small>rationally/rationally_visio</small></a></p>
-            <p class="view"><a href="https://github.com/rationally/rationally_server">View the Project on GitHub <small>rationally/rationally_server</small></a></p>
-        </header>
-        <section>
-            <h1>rationally</h1>
+    p,li,ul {
+      text-align: center
+    }
 
-            <p>A decision documentation add-in for Microsoft Visio</p>
+    ul
+    {
+        list-style-type: none;
+    }
+</style>
+  </head>
+  <body>
+    <body class="" data-url="/">
 
-
-        <ul>
-        <li><a href="/basics/what-is-rationally">Documentation</a></li>
-        <li><a href="https://github.com/rationally/rationally_visio/releases/latest">Download <b>rationally</b></a></li>
-        </ul>
-
-
+          <section id="body" style="margin-left:0px;">
+          <a href="/welcome"><img src="/images/logo_vertical.png" width="400"></a>
         </section>
-        <footer>
-            <p>This project is maintained by <a href="http://github.com/rationally">rationally</a></p>
-            <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-</body>
+  </body>
 </html>
