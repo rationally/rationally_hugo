@@ -13,9 +13,13 @@ This manual guides you through the first steps of using **rationally**. it expla
 ## Prerequisites 
 
 * You need to have at least Microsoft Visio 2016
-* You need to install rationally on the client machine. You can verify if rationally has been installed:
- * it should be listed under _add or remove programs_ in the Window's control center.
- * it should be listed as a Visio add-in. You can verify this by navigating to _File/Options/add-ins_. Under _Active Application_ Add-ins, rationally-visio should be listed.
+* You need to have **rationally* installed on your machine. 
+
+{{% notice info %}}
+You can verify if rationally has been installed correctly in the following ways. 
+It should be listed under "_add or remove programs_ " in the Window's control center and
+it should be listed as an add-in in Visio itself. You can verify this by navigating to "_File/Options/add-ins_". Under _Active Application_ Add-ins, **rationally-visio** should be listed.
+{{% /notice%}}
 
  {{% button href="https://github.com/rationally/rationally_visio/releases/latest" icon="fa fa-arrow-down" %}}Get rationally{{% /button %}}
 

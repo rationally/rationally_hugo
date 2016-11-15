@@ -4,7 +4,7 @@ title = "rationally"
 theme = "hugo-theme-learn"
 
 [params]
-  editURL = ""
+  editURL = "https://github.com/rationally/rationally_hugo/edit/master/content/"
   author = ""
   description = ""
   showVisitedLinks = false

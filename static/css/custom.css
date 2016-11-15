@@ -1,17 +1,18 @@
 /* background behind the logo*/
 #header {
-    background: #fff;
-    border-color: #fff;
+    background: #D7E8E5;
+    border-color: #D7E8E5;
 }
 
 #header-wrapper {
-	background: #fff;
+	background: #D7E8E5;
 	border-bottom: 4px solid #4FC0A7;
 }
 
 /* Background color of the menu */
 #sidebar {
   background-color: #417568;
+  /*border-right: 1px solid #4FC0A7;*/
 }
 
 /* Background color of the menu, when clicked */
