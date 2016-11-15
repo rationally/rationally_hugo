@@ -15,7 +15,7 @@ A decision documentation add-in for Microsoft Visio.
 
 <center>
 {{% button href="https://github.com/rationally/rationally_visio/releases/latest" icon="fa fa-arrow-down" %}}Get rationally{{% /button %}}
-{{% button href="https://github.com/rationally/rationally_visio/releases/latest" icon="fa fa-github" %}}View Project on GitHub{{% /button %}}
+{{% button href="https://github.com/rationally/rationally_visio" icon="fa fa-github" %}}View Project on GitHub{{% /button %}}
 </center>
 
 <br /><br /><br /><br /><br />

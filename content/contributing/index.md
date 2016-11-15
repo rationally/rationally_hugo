@@ -11,4 +11,8 @@ weight: 0
 
 # Contributing
 
-Learn how you can help to improve rationally and its documentation.
+You can contribute to **rationally** by
+
+* by [reporting issues, questions, enhancements](https://github.com/rationally/rationally_visio/issues/new) on our [project's GitHub page](https://github.com/rationally/rationally_visio/issues).
+* by [updating and revising](https://github.com/rationally/rationally_hugo/tree/master/content) this documentation.
+* by contributing changes and fixes to **rationally**.
