@@ -1,10 +1,18 @@
 language: go
 install: go get -v github.com/spf13/hugo
-script: ./deploy.sh
+
+script: 
+- hugo
+
+deploy:
+  provider: script
+  script: ./deploy.sh
+
 notifications:
-  email:
-    on_failure: always
+  slack: rationally:BL1ku5g7rd3jrxQsbK01yDOu
+
 env:
   global:
   - GH_REF: github.com/rationally/rationally.github.io.git
   - secure: E2s87oQkPWD1Un4zUiv/n22gXPjt1UprUFQYjAwDx9m2mgH03Ndd9hHBoI6WfJ3ncBP5Dlk1vSFhnDWAiuO9nbAO66GcKT1ivTnpFnG/SvJwM4rMUdVvrSPatDp01RmpZWvyp/2MLSr41ua0kJIFkUkmqwHFLq6WtooUY0azdvFLYOQ3RNejAOYaJ58zW+Fcqjcf2UJ66TNIvU9OijxIunsXWYrQk6eX7PDmx3i5xW3W4RJH30AX0T+sxnorRSoJULc7NLTv6NhtYxy4X0aiK6jkTGJidwCRH3uOie9kW/SoZoQs8fZPhQhOi1cYT6Xo3gONnucS4q+wvWHMByLFk4NZx82pTvwFUnGa0s9Qu5DH83v8kumaGoGspNVW4K0b0HKvt5kMjXXIyINTrpO1iY0YEyWVJrHQRhb7C38nawpfbzrGv/d3WlRChRlBkovPizpysmSJPG8cOrCmgjQRT35yp7cp762WQeDEFZcFod15LvXa0S3LWusyxQQ31Rg88AsbSRzku1wKx28X1sRlCKJUU0CbpMczRLLhgqM3/khw7xoxz/L0oVH4uc/okh3OStbyKpuAdXMli3J5Ww83+gncYijUQ9pnk1GKk+CcMG6vI9dhs/YMoUj95JGt7fat8ewP53ODQ0oNji8nnEHPaCdUjoPZYtVKH2o3GcAWokQ=
+
