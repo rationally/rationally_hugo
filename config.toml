@@ -6,7 +6,7 @@ MetaDataFormat = "yaml"
 canonifyurls = true
 
 [params]
-  editurl = "https://github.com/rationally/rationally_hugo/edit/master/content/"
   author = "University of Groningen"
   description = "Documentation for rationally"
   showVisitedLinks = false
+  editURL = "https://github.com/rationally/rationally_hugo/edit/master/content/"
