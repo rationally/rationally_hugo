@@ -2,10 +2,6 @@ languageCode = "en-us"
 baseurl = "http://rationally.github.io/"
 title = "rationally"
 theme = "hugo-theme-learn"
-contentdir: "content"
-layoutdir: "layouts"
-publishdir: "public"
-canonifyurls: true
 
 [params]
   editURL = ""
