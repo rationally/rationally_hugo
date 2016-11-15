@@ -19,8 +19,5 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -m "$msg"
-git remote add origin "https://${GH_TOKEN}@${GH_REF}"
-
-git push --force --quiet master
-
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master
 cd ..
