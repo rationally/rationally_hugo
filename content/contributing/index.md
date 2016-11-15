@@ -10,6 +10,6 @@ weight = 99
 
 ### Chapter 2
 
-# Some Chapter title
+# Contributing
 
-Lorem ipsum
+Learn how you can help to improve rationally and its documentation.
