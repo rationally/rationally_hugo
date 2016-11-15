@@ -2,9 +2,11 @@ languageCode = "en-us"
 baseurl = "http://rationally.github.io/"
 title = "rationally"
 theme = "hugo-theme-learn"
+MetaDataFormat = "yaml"
+canonifyurls = true
 
 [params]
   editURL = "https://github.com/rationally/rationally_hugo/edit/master/content/"
-  author = ""
-  description = ""
+  author = "University of Groningen"
+  description = "Documentation for rationally"
   showVisitedLinks = false
