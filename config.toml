@@ -1,5 +1,5 @@
 languageCode = "en-us"
-baseurl = "http://rationally.github.io/"
+baseurl = "https://rationally.github.io/"
 title = "rationally"
 theme = "hugo-theme-learn"
 MetaDataFormat = "yaml"
