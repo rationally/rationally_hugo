@@ -9,7 +9,7 @@ weight: 6
 # Releaseguide
 
 In order to release a new version of rationally, there are a few things to check and look out for.
-1.[ ] Update the version number based on [ semantic versioning](http://semver.org/).
+1.[ ] Update the version number based on 
 2.[ ] Ensure the templates and stencils are up to date in the setup project. Re-add them if necessary.
 3.[ ] Commit and push latest changes.
 4.[ ] Ensure the version number in `RationallyAddin.cs` and `product.wxs`are the same.
