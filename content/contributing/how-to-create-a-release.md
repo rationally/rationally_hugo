@@ -6,14 +6,18 @@ title: How to create a release
 toc: true
 weight: 6
 ---
+# Releaseguide
 
-1. Update version numbers in file XYZ
-2. Commit and push the latest changes
-3. Build the project
-4. Sign the msi
-3. Create a new relase on github
-5. Add release notes and binary
+In order to release a new version of rationally, there are a few things to check and look out for.
+1[ ] Update the version number based on [ semantic versioning](http://semver.org/).
+2[ ] Ensure the templates and stencils are up to date in the setup project. Re-add them if necessary.
+3[ ] Commit and push latest changes.
+4[ ] Ensure the version number in `RationallyAddin.cs` and `product.wxs`are the same.
+5[ ] Ensure the msi was built in RELEASE modus, not DEBUG.
+6[ ] Add the version number to the name of the msi.
+7[ ] Sign the msi using Microsoft signtool.
+8[ ] Create a release on Github with the same version number as the msi.
+9[ ] Add the msi to the Github release.
+10[ ] Add release notes to the release.
 
-{{% notice warning %}}
-We use a simplified semantic versioning scheme consisting of major.minor.build, e.g., 2.3.4. The version indicator should **only contain numbers**, otherwise users are not automatically informed about a new relase.
-{{% /notice %}}
+{{% notice warning %}} We use a simplified semantic versioning scheme consisting of major.minor.build, e.g., 2.3.4. The version indicator should only contain numbers, otherwise users are not automatically informed about a new release. {{% /notice %}}
