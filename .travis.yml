@@ -1,9 +1,19 @@
 language: go
-install: ./ci-install-hugo.sh
+
+install:
+    - go get -u -v github.com/kardianos/govendor
+    - go get -u -v github.com/spf13/hugo
+    - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
+  
+
+script:
+    - cd $HOME/gopath/src/github.com/rationally/rationally_hugo && hugo
+
+#install: ./ci-install-hugo.sh
 # Old: install: go get -v github.com/spf13/hugo
 
-script: 
-- hugo
+#script: 
+#- hugo
 
 deploy:
   provider: script
