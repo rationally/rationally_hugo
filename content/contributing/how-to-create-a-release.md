@@ -14,7 +14,7 @@ The following list describes the steps that need to be taken in order to release
 * **Commit and push latest changes.**
 * Assert that the `setup-project` contains the latest templates and stencils.
 * Assert that the version number in `RationallyAddin.cs` and `product.wxs` are the same.
-* **Built the msi.**
+* **Build the msi.**
 * Assert that the msi was built in `RELEASE` mode (not DEBUG).
 * Add the version number to the name of the msi. (e.g., *rationally_v0-1-2.msi*)
 * Sign the msi using the [Microsoft signtool](https://msdn.microsoft.com/de-de/library/8s9b9yaz(v=vs.110).aspx)
