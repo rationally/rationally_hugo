@@ -1,6 +1,6 @@
 language: go
 install: ./ci-install-hugo.sh
-# go get -v github.com/spf13/hugo
+# Old: install: go get -v github.com/spf13/hugo
 
 script: 
 - hugo
